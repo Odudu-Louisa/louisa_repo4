@@ -1,0 +1,168 @@
+/*Get rid of default padding and margin*/
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.top_nav ul li{
+  float: left;
+  padding: 10px 50px;
+  margin: 10px;
+}
+
+.top_nav{
+  float: left;
+  background-color: grey;
+  width: 2000px;
+}
+
+.top_nav a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.clear{
+  clear: both;
+}
+
+header,nav,section,aside,footer,article, div{
+  display: block;
+}
+
+/* centering website */
+
+.container{
+  width:1800px;
+  margin: 0px;
+  text-align: center;
+  padding: 30px 30px 0px 30px;
+  max-width: 100%;
+
+}
+.daily{
+  font-size: 50px;
+  padding: 13px 13px 5px 13px;
+  text-align: center;
+}
+.well{
+  text-align: center;
+}
+
+.collector{
+  float: left;
+  width: 800px;
+  margin-bottom: 0px 0px 27px 100px;
+  text-align: center;
+  background-color: white;
+  font-size: 18px;
+  font-family: georgia;
+  font-weight: 400;
+  padding: 0px;
+}
+
+.divine_mercy{
+  width: 900px;
+  margin-left: 200px;
+  padding-left: 80px;
+}
+
+.para a{
+  text-decoration: none;
+  color: blue;
+}
+
+.para a:hover{
+  color: purple;
+  text-decoration: underline;
+}
+
+.para a:active{
+  color: red;
+}
+
+.para a:visited{
+  color: blue;
+}
+
+.the{
+  width:1250px;
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-weight: 300;
+  font-family: Georgia;
+  font-style: normal;
+  line-height: 36px;
+}
+
+.connect{
+  float: right;
+  margin: 10px auto;
+  padding:0px;
+  background-color: black;
+  width: 300px;
+}
+
+.connect a{
+  text-decoration: none;
+  padding: 0px;
+  margin: 10px;
+  color: white;
+}
+
+.connect p{
+  color: black;
+  background-color: white;
+  margin: 10px;
+  padding: 0px;
+}
+
+.contact{
+  width: 1200px;
+  margin: 10px auto;
+  padding: 0px;
+  text-align: center;
+  background-color: white;
+}
+
+.code{
+  width: 2000px;
+  background-color: #E6E6FA;
+}
+
+.float{
+  clear: both;
+}
+
+.all{
+  background-color:white;
+  color: black;
+  margin:right 100px;
+  padding: 50px;
+}
+
+.get{
+  padding: 20px;
+}
+
+.good{
+  width: 900px;
+  margin-top: 20px;
+  margin-left:200px;
+  padding-left: 180px;
+  text-align: justify;
+  background-color: white;
+}
+ 
+ #name{
+  text-align: justify;
+  color: black;
+  width: 1200px;
+  font-size: 18px;
+  font-family: Georgia;
+  font-weight: 400;
+  margin-left: 100px;
+ }
